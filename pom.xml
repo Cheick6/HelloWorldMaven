@@ -13,6 +13,18 @@
     <name>HelloWorldMaven</name>
     <url>http://maven.apache.org</url>
 
+    <!-- 🔹 Dépendances du projet -->
+    <dependencies>
+        <!-- JUnit 3 pour AppTest.java (junit.framework.*) -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <!-- 🔹 Configuration du build -->
     <build>
         <plugins>
             <!-- Plugin de compilation avec Java 8 -->
