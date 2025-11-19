@@ -13,7 +13,7 @@
     <name>HelloWorldMaven</name>
     <url>http://maven.apache.org</url>
 
-    <!-- 🔹 Dépendances du projet -->
+    <!-- Dependances du projet -->
     <dependencies>
         <!-- JUnit 3 pour AppTest.java (junit.framework.*) -->
         <dependency>
@@ -24,7 +24,7 @@
         </dependency>
     </dependencies>
 
-    <!-- 🔹 Configuration du build -->
+    <!-- Configuration du build -->
     <build>
         <plugins>
             <!-- Plugin de compilation avec Java 8 -->
